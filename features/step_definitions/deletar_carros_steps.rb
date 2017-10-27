@@ -1,8 +1,5 @@
 Quando("clico no carro que desejo deletar") do                                
-  20.times do
-    scroll("* id:'listaCarros'", :down)
-    end
-    page(Geral).busca_carro
+  page(Geral).busca_modelo_na_pagina_consulta
 end                                                                           
                                                                               
 Quando("toco no botão deletar") do                                                                    
