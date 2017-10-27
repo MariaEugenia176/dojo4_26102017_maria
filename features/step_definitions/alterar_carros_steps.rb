@@ -5,10 +5,9 @@ Dado("que estou na tela de consulta de carros") do
 end
 
 Quando("clico no carro que desejo alterar") do                     
-  20.times do
-  scroll("* id:'listaCarros'", :down)
-  end
-  page(Geral).busca_carro
+  page(Geral).busca_modelo_na_pagina_consulta
+ 
+
 end                                                                         
                                                                              
 Quando("toco no botão alterar") do  
@@ -20,4 +19,4 @@ Quando("toco no botão alterar") do
                                                                          
 Então("o sistema exibirá mensagem de carro alterado com sucesso") do
   page(Geral).validar_texto('Carro alterado com sucesso.')
-end                                                                          
+end                                                                                                                                                 
