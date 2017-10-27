@@ -7,4 +7,4 @@ carros:
 
 
 carros_alterar:
-  modelo: 'BMW7777'
+  modelo: 'BMW'
