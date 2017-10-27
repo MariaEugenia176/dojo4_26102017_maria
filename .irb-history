@@ -1,0 +1,37 @@
+reinstall_apps
+start_test_in_server_background
+start_test_in_server_ba
+start_test_in
+start_test_in_server_
+start_test_in_server_b
+exit-program
+start_test_in_server_background
+exit-program
+star_test_in_server_
+star_test_in_server_b
+exit-program
+reinstall_apps
+start_test_in_server_background
+exit-program
+start_test_server_in_background
+query ("*")
+exit
+start_test_server_in_background
+exit
+start_test_server_in_background
+Calabash-android ApkProvaCarros.apk
+exit
+reinstall_apps
+start_test_server_in_background
+Calabash-android run ApkProvaCarros.apk
+exit
+exit
+start_test_server_in_background
+reinstall_apps
+start_test_server_in_background
+exit
+start_test_server_in_background
+Calabash-android run ApkProvaCarros.apk
+exit
+start_test_server_in_background
+exit

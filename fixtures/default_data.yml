@@ -1,0 +1,10 @@
+carros:
+  modelo: 'DaNai'
+  ano: 1990
+  placa: EBX2034
+  km: 10000
+  valor: 30000
+
+
+carros_alterar:
+  modelo: 'BMW7777'
