@@ -9,11 +9,11 @@ Quando("clico no carro que desejo alterar") do
   scroll("* id:'listaCarros'", :down)
   end
   page(Geral).busca_carro
-  assert_text("Alterar")
+  #assert_text("Alterar")
 end                                                                         
                                                                              
 Quando("toco no botão alterar") do  
-  query("* id:'modelo'",setText:"")
+  page(Geral).limpa_campo_id 'modelo'
   page(Cadastro).preencher_modelo(DATA['carros_alterar']['modelo'])                          
   page(Alterar).botao_alterar
   end                                                                          
