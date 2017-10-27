@@ -5,7 +5,7 @@ class Geral < Calabash::ABase
         end
 
         def busca_carro
-            touch(query("* text:'GM/Celta'").last)
+            touch(query("* text:'Fiat'").last)
             
 
         end
