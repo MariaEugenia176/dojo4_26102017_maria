@@ -6,12 +6,15 @@ class Geral < Calabash::ABase
 
         def busca_carro
             touch(query("* text:'Fiat'").last)
-            
-
         end
     
     def validar_texto(text, timeout=20)
         wait_for_elements_exist(["* text:'#{text}'"], :timeout => timeout) 
     end
+
+    def limpa_campo_id(modelo)
+        clear_text_in("* id:'#{'modelo'}'")  
+       end
+
 end
 
