@@ -38,8 +38,8 @@ class Cadastro < Calabash::ABase
     def preencher_cadastro(modelo, ano, placa, km, valor)
         preencher_modelo(modelo)
         preencher_ano(ano)
-        preenhcer_placa(placa) 
-        preenhcer_km(km) 
+        preencher_placa(placa) 
+        preencher_km(km) 
         preencher_valor(valor)
     end
 
