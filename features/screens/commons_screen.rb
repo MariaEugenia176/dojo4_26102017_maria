@@ -15,6 +15,13 @@ class Geral < Calabash::ABase
     def limpa_campo_id(modelo)
         clear_text_in("* id:'#{'modelo'}'")  
        end
+       
+       def busca_modelo_na_pagina_consulta
+        until query("* text:'yhj'").count == 1
+           scroll("* id:'listaCarros'", :down)
+        end
+        touch("* text:'yhj'")
+    end 
+       
 
 end
-
